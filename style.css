@@ -55,25 +55,22 @@ body {
 
 .menu {
     display: flex;
-    justify-content: space-between; /* espaço igual entre todos */
-    flex-wrap: nowrap;               /* não permite quebra de linha */
-    gap: 15px;
-    width: 100%;                     /* ocupa toda a largura do container */
-    max-width: 700px;                /* largura máxima para ficar bonito */
-    margin: 30px auto 0 auto;        /* distancia do topo e centraliza */
+    justify-content: space-between; /* espaço igual entre os botões */
+    flex-wrap: nowrap;               /* impede quebra de linha */
+    gap: 15px;                       /* espaço entre botões */
+    margin-top: 30px;                /* distância do conteúdo acima (nome/foto) */
 }
 
 .menu a {
-    flex: 1;                         /* todos os botões ocupam largura igual */
+    flex: 1;                         /* todos os botões com largura igual */
     text-align: center;
-    text-decoration: none;
-    padding: 12px 25px;
+    padding: 12px 20px;              /* mantém confortável, mas não muito largo */
     border-radius: 30px;
     background: var(--accent);
     color: var(--text-dark);
     font-weight: bold;
+    white-space: nowrap;              /* evita quebra de texto do botão */
     transition: 0.3s ease;
-    white-space: nowrap;             /* evita quebra do texto do botão */
 }
 
 .menu a:hover {
