@@ -69,6 +69,7 @@ header h2 {
     color: var(--text-dark);
     font-weight: bold;
     transition: 0.3s ease;
+    white-space: nowrap;
 }
 
 .menu a:hover {
