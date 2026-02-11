@@ -22,7 +22,7 @@ body {
 
 /* MAIN CONTAINER */
 .container {
-    width: 800px;          /* aumenta a largura do quadrado */
+    width: 850px;          /* aumenta a largura do quadrado */
     max-width: 95%;        /* para telas pequenas, não estourar a tela */
     padding: 40px 30px;    /* mais espaço interno para conteúdo e botões */
     box-sizing: border-box;
