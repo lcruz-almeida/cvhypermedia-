@@ -22,14 +22,16 @@ body {
 
 /* MAIN CONTAINER */
 .container {
-    background: var(--bg-card);
-    width: 800px;
-    max-width: 90%;
-    padding: 60px;
-    border-radius: 20px;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+    width: 600px;          /* aumenta a largura do quadrado do CV */
+    max-width: 90%;        /* para telas pequenas, não quebrar layout */
+    padding: 30px;         /* mantém espaçamento interno */
+    box-sizing: border-box;
+    background-color: #f1efef;
+    border-radius: 15px;
     text-align: center;
+    margin: 40px auto;     /* centraliza verticalmente e horizontalmente */
 }
+
 
 /* Espaçamento uniforme para todas as secções do CV */
 .container h1 {
