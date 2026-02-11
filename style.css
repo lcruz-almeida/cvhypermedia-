@@ -31,27 +31,24 @@ body {
     text-align: center;
 }
 
-/* HEADER */
-header h1 {
-    font-size: 2.5rem;
-    color: var(--text-dark);
-    margin-bottom: 10px;
+/* Espaçamento uniforme para todas as secções do CV */
+.container h1 {
+    margin-bottom: 30px; /* espaço abaixo do título da secção */
+    font-size: 2em;
+    text-align: center;
 }
 
-header h2 {
-    font-size: 1.2rem;
-    font-weight: normal;
-    color: #555;
-    margin-bottom: 30px;
+.container h3 {
+    margin-top: 25px;    /* espaço acima do subtítulo */
+    margin-bottom: 12px; /* espaço abaixo do subtítulo */
+    font-size: 1.3em;
 }
 
-/* PRESENTATION */
-.presentation p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: var(--text-dark);
-    margin-bottom: 40px;
+.container p {
+    margin-bottom: 10px;  /* espaço entre parágrafos */
+    line-height: 1.5em;
 }
+
 
 .menu {
     display: flex;
