@@ -77,3 +77,22 @@ header h2 {
     transform: scale(1.05);
 }
 
+.back {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    background: var(--accent);
+    color: var(--text-dark);
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.back:hover {
+    background: var(--text-dark);
+    color: white;
+    transform: scale(1.05);
+}
+
+
