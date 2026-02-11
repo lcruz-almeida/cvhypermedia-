@@ -1,1 +1,79 @@
+:root {
+    --bg-main: #ddd7d3;
+    --bg-card: #f1efef;
+    --text-dark: #2c2c2c;
+    --accent: #c5beb9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: var(--bg-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* MAIN CONTAINER */
+.container {
+    background: var(--bg-card);
+    width: 800px;
+    max-width: 90%;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+/* HEADER */
+header h1 {
+    font-size: 2.5rem;
+    color: var(--text-dark);
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* PRESENTATION */
+.presentation p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-dark);
+    margin-bottom: 40px;
+}
+
+/* MENU */
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    background: var(--accent);
+    color: var(--text-dark);
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.menu a:hover {
+    background: var(--text-dark);
+    color: white;
+    transform: scale(1.05);
+}
 
