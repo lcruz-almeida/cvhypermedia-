@@ -95,4 +95,18 @@ header h2 {
     transform: scale(1.05);
 }
 
+.photo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* espaço entre a foto e o nome */
+}
+
+.photo-container img {
+    width: 180px;           /* tamanho da foto */
+    height: 180px;
+    object-fit: cover;      /* mantém proporção e corta se necessário */
+    border-radius: 50%;     /* deixa a foto redonda */
+    border: 4px solid var(--accent); /* borda elegante */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* sombra suave */
+}
 
