@@ -22,14 +22,15 @@ body {
 
 /* MAIN CONTAINER */
 .container {
-    width: 600px;          /* aumenta a largura do quadrado do CV */
-    max-width: 90%;        /* para telas pequenas, não quebrar layout */
-    padding: 30px;         /* mantém espaçamento interno */
+    width: 700px;          /* aumenta a largura do quadrado */
+    max-width: 95%;        /* para telas pequenas, não estourar a tela */
+    padding: 40px 30px;    /* mais espaço interno para conteúdo e botões */
     box-sizing: border-box;
-    background-color: #f1efef;
+    background-color: #f1efef; /* fundo branco */
     border-radius: 15px;
     text-align: center;
-    margin: 40px auto;     /* centraliza verticalmente e horizontalmente */
+    margin: 50px auto;     /* centraliza o container */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* opcional: deixa mais elegante */
 }
 
 
