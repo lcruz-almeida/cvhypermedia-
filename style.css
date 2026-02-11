@@ -22,7 +22,7 @@ body {
 
 /* MAIN CONTAINER */
 .container {
-    width: 700px;          /* aumenta a largura do quadrado */
+    width: 800px;          /* aumenta a largura do quadrado */
     max-width: 95%;        /* para telas pequenas, não estourar a tela */
     padding: 40px 30px;    /* mais espaço interno para conteúdo e botões */
     box-sizing: border-box;
@@ -63,14 +63,15 @@ body {
 }
 
 .menu a {
-    flex: 1;                         /* todos os botões com largura igual */
+    text-decoration: none;   /* remove o sublinhado */
+    flex: 1;                 /* largura igual para todos */
     text-align: center;
-    padding: 12px 20px;              /* mantém confortável, mas não muito largo */
+    padding: 12px 15px;      /* mantém confortável */
     border-radius: 30px;
     background: var(--accent);
     color: var(--text-dark);
     font-weight: bold;
-    white-space: nowrap;              /* evita quebra de texto do botão */
+    white-space: nowrap;     /* evita quebra de texto */
     transition: 0.3s ease;
 }
 
