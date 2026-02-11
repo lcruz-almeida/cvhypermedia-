@@ -37,7 +37,6 @@ body {
 /* Espaçamento uniforme para todas as secções do CV */
 .container h1 {
     margin-bottom: 30px;/* espaço abaixo do título da secção */
-    color: #8B5E3C;
     font-size: 2em;
     text-align: center;
 }
@@ -46,6 +45,7 @@ body {
     margin-top: 25px;    /* espaço acima do subtítulo */
     margin-bottom: 12px; /* espaço abaixo do subtítulo */
     font-size: 1.3em;
+    color: #8B5E3C;
 }
 
 .container p {
