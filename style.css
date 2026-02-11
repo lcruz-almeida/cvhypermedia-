@@ -53,15 +53,19 @@ header h2 {
     margin-bottom: 40px;
 }
 
-/* MENU */
 .menu {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-between; /* espaço igual entre todos */
+    flex-wrap: nowrap;               /* não permite quebra de linha */
     gap: 15px;
+    width: 100%;                     /* ocupa toda a largura do container */
+    max-width: 700px;                /* largura máxima para ficar bonito */
+    margin: 30px auto 0 auto;        /* distancia do topo e centraliza */
 }
 
 .menu a {
+    flex: 1;                         /* todos os botões ocupam largura igual */
+    text-align: center;
     text-decoration: none;
     padding: 12px 25px;
     border-radius: 30px;
@@ -69,7 +73,7 @@ header h2 {
     color: var(--text-dark);
     font-weight: bold;
     transition: 0.3s ease;
-    white-space: nowrap;
+    white-space: nowrap;             /* evita quebra do texto do botão */
 }
 
 .menu a:hover {
@@ -77,6 +81,7 @@ header h2 {
     color: white;
     transform: scale(1.05);
 }
+
 
 .back {
     display: inline-block;
